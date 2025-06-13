@@ -1,0 +1,137 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juany Stylos - Blusas y Maquillajes</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fff7f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f06292;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #f8bbd0;
+      padding: 10px 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #880e4f;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 20px;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .producto {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .producto img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: #f06292;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    button {
+      background-color: #880e4f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Juany Stylos</h1>
+    <p>Moda y Belleza para Ti 💄👚</p>
+  </header>
+
+  <nav>
+    <a href="#blusas">Blusas</a>
+    <a href="#maquillaje">Maquillajes</a>
+    <a href="#contacto">Contáctame</a>
+  </nav>
+
+  <section class="section" id="blusas">
+    <h2>Blusas</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Blusa+1" alt="Blusa 1">
+        <h3>Blusa Floral</h3>
+        <p>$12.990</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Blusa+2" alt="Blusa 2">
+        <h3>Blusa Elegante</h3>
+        <p>$14.990</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="maquillaje">
+    <h2>Maquillajes</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Labial" alt="Labial">
+        <h3>Labial Mate</h3>
+        <p>$6.990</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/200x200?text=Base" alt="Base">
+        <h3>Base Líquida</h3>
+        <p>$9.990</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contacto">
+    <h2>Contáctame</h2>
+    <p>Haz tus pedidos directamente por WhatsApp 📲</p>
+    <a href="https://wa.me/56912345678" target="_blank">
+      <button>Escríbeme por WhatsApp</button>
+    </a>
+  </section>
+
+  <footer>
+    <p>Sígueme en Instagram: @juanystylos</p>
+    <p>&copy; 2025 Juany Stylos - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
